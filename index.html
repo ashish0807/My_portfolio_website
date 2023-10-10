@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b84c869373.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="logoname" >
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>ASHISH</span><span>ASHISH</span><br> from India</h1><br>
+                <p>"Turning Complexity into <span>Simplicity</span>, <br>One Stack at a <span>Time</span>"</p>
+            </div>
+        </div>
+    </div>
+<!-- -----------------------------------about--------------------------------- -->
+    <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/aboutdp.png" >
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nobis provident? Accusantium quos vitae impedit veritatis aspernatur vero quis hic. Ad delectus minima animi esse cumque dolorum! Veniam, sit perferendis?</p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                <p class="tab-links " onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <h4>CSS</h4>
+                <div class="progress-bar">
+                  <div class="css"><span>70%</span></div>
+                </div>
+                <h4>Javascript</h4>
+                <div class="progress-bar">
+                  <div class="js"><span>80%</span></div>
+                </div>
+                <h4>ReactJs</h4>
+                <div class="progress-bar">
+                  <div class="reactjs"><span>60%</span></div>
+                </div>
+                <h4>NodeJs</h4>
+                <div class="progress-bar">
+                  <div class="nodejs"><span>60%</span></div>
+                </div>
+                <h4>DSA</h4>
+                <div class="progress-bar">
+                  <div class="dsa"><span>70%</span></div>
+                </div>
+                <h4>C++</h4>
+                <div class="progress-bar">
+                  <div class="c"><span>90%</span></div>
+                </div>
+                <h4>Sql</h4>
+                <div class="progress-bar">
+                  <div class="sql"><span>60%</span></div>
+                </div>
+
+                    
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>MERN Stack Developer&nbsp;&nbsp;&nbsp;&nbsp;2022-Present</span><br>Building responsive websites and apps</li>
+                  <li><span>Full Stack Developer&nbsp;&nbsp;&nbsp;&nbsp;2021-Present</span><br>Building full functioning websites</li>
+                  <li><span>Software Engineer&nbsp;&nbsp;&nbsp;&nbsp;2020-Present</span><br>Build and Test Software</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>BTech&nbsp;&nbsp;&nbsp;&nbsp;2020-2024</span><br>Lovely Professional University,Jalandhar,Punjab</li>
+                    <li><span>Intermediate&nbsp;&nbsp;&nbsp;&nbsp;2017-2019</span><br>Delhi Model Public School</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+<!-- ---------------------------------services-------------------------------------- -->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Software Engineer</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut esse fugiat natus exercitationem iure iste cum eveniet expedita itaque quas.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-globe"></i>
+        <h2>Full Stack Developer</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut esse fugiat natus exercitationem iure iste cum eveniet expedita itaque quas.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-laptop"></i>
+        <h2>MERN Stack Developer</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut esse fugiat natus exercitationem iure iste cum eveniet expedita itaque quas.</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- -----------------------portfolio-------------------------- -->
+<div id="portfolio">
+     <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/news1.jpg">
+          <div class="layer">
+            <h3>News Website</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quia maiores illum commodi asperiores odio aut? Consectetur fugit optio unde.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/weather1.jpg">
+          <div class="layer">
+            <h3>Weather App</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quia maiores illum commodi asperiores odio aut? Consectetur fugit optio unde.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/ecommerce.jpg">
+          <div class="layer">
+            <h3>E-commerce = Website</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam quia maiores illum commodi asperiores odio aut? Consectetur fugit optio unde.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">More</a>
+     </div>
+</div>
+<!-- ------------------------------------contact-------------------------------- -->
+<div id="contacts">
+  <div class="container">
+    <h1 class="sub-title">Connect</h1>
+    <div class="contact-list">
+      <div class="linkedin">
+       <a class="btn btn-primary" style="background-color: #0082ca;" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+
+      <div class="instagram">
+        <a class="btn btn-primary" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+       </div>
+
+       <div class="twitter">
+        <a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+      </div>
+
+      <div class="stackoverflow">
+        <a class="btn btn-primary" style="background-color: #ffac44;" href="#!" role="button"><i class="fab fa-stack-overflow"></i></a> 
+      </div>
+      
+      <div class="github">
+        <a class="btn btn-primary" style="background-color: #333333;" href="#!" role="button"><i class="fab fa-github"></i ></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -----------------------------form------------------------------- -->
+<div id="foot">
+  <div class="container">
+    <div class="row">
+      <div class="foot-left">
+        <h1 class="sub-title">Contact me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>ashishshrma.0807@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>+91 8429190556</p>
+        <a href="images/my_cv.pdf" download class="btn btn2">Downnload CV</a>
+      </div>
+      
+      <div class="foot-right">
+        <form>
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+      </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright <i class="fa-solid fa-copyright"></i> by Ashish Kumar Sharma </p>
+  </div>
+</div>
+
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+    </script>
+
+</body>
+</html>
